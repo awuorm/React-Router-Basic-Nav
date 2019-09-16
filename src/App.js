@@ -7,8 +7,8 @@ const App = () => (
   <div>
     <Navigation />
     <Route exact path="/"  components={Home}></Route>
-    <Route path="/about" components={About}></Route>
-    <Route path="/contact" components={Contact}></Route>
+    <Route path="/About" components={About}></Route>
+    <Route path="/Contact" components={Contact}></Route>
   </div>
 );
 
