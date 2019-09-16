@@ -1,7 +1,8 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
-const Navigation = () => {
+const Navigation = (props) => {
+  console.log(props)
   return (
     <div>
       <div className="App">
