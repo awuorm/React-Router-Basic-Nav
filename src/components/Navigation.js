@@ -1,18 +1,23 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
-const Navigation = () => {
+const Navigation = (props) => {
+  console.log(props)
   return (
     <div>
       <div className="App">
         <h1>React Router Mini</h1>
         <div>
-          <a href="">Home</a>
+          <Link to="/">Home</Link>
+          {/* <a href="">Home</a> */}
         </div>
         <div>
-          <a href="">About</a>
+        <Link to="/About">About</Link>
+          {/* <a href="">About</a> */}
         </div>
         <div>
-          <a href="">Contact</a>
+        <Link to="/Contact">Contact</Link>
+          {/* <a href="">Contact</a> */}
         </div>
       </div>
     </div>
